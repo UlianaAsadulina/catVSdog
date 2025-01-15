@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="title">Cats vs Dog Cuteness Index</h1>
+		
+        <div class="animalHolder">
+            <div class="cats">
+                <img src="" alt="" class="meow">
+            </div>
+            <div class="dogs">
+                <img src="" alt="" class="woof">
+            </div>
+        </div>
+		<button class="which" onclick="startGame()">Get new pictures</button>
+		<h1 text-align ="center" >Which one is Cutest?</h1>
+	   	<div id="pickOne">
+			<button class="pickBtn" id="catBtn" onclick="selectCat()">this CAT</button>
+			<button class="pickBtn" id="dogBtn" onclick="selectDog()">this DOG</button>
+		</div>
+
+		<div class="infobox">
+				<h1 class="catScore">Score : <span class="c1"> </span></h1>
+				<h1 class="dogScore">Score : <span class="d1"> </span></h1>
+                
+		</div>
+        <h1 class="winner"></h2>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="app.js" async defer></script>
+    </body>
+</html>

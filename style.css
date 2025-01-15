@@ -1,0 +1,52 @@
+.title{
+    border:solid black;
+    margin:1em;
+    text-align:center;
+}
+.animalHolder{
+    display:flex;
+    flex-wrap: wrap;
+}
+.cats{
+    width:50%;
+    height:42vh;
+}
+.dogs{
+    /* border:solid red; */
+    width:50%;
+    height:42vh;
+}
+.meow,.woof{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.which{
+    width:97%;
+    margin: 10px;
+    font-size:32px;
+    font-family: cinzel;
+}
+
+.pickOne {
+	display: flex;
+	margin: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pickBtn {
+	height: 50px;
+	width: 49%;
+	font-size:32px;
+    font-family: cinzel;
+	margin-top: 10px;
+	text-align: center;
+
+
+}
+
+.infobox{
+    display:flex;
+    justify-content: space-between;
+}
