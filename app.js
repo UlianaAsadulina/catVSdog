@@ -1,10 +1,6 @@
 let catScore = 0;
 let dogscore = 0;
 
-
-
-
-
 let catImg = document.querySelector(".meow");
 let dogImg = document.querySelector(".woof");
 

@@ -30,17 +30,17 @@
 
 .pickOne {
 	display: flex;
-	margin: 20px;
+	margin: 10px;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .pickBtn {
 	height: 50px;
-	width: 49%;
-	font-size:32px;
+	width: 40%;
+	font-size:25px;
     font-family: cinzel;
-	margin-top: 10px;
+	margin:10px;
 	text-align: center;
 
 

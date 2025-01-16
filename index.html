@@ -13,17 +13,18 @@
 		
         <div class="animalHolder">
             <div class="cats">
-                <img src="" alt="" class="meow">
+                <img src="" alt="" class="meow" onclick="selectCat()">
             </div>
             <div class="dogs">
-                <img src="" alt="" class="woof">
+                <img src="" alt="" class="woof" onclick="selectDog()">
             </div>
         </div>
 		<button class="which" onclick="startGame()">Get new pictures</button>
-		<h1 text-align ="center" >Which one is Cutest?</h1>
+		
 	   	<div id="pickOne">
-			<button class="pickBtn" id="catBtn" onclick="selectCat()">this CAT</button>
-			<button class="pickBtn" id="dogBtn" onclick="selectDog()">this DOG</button>
+			<button class="pickBtn" id="catBtn" onclick="selectCat()">CAT</button>
+            <span text-align ="center" font-size = '25pt'>Which one is Cutest?</span>
+			<button class="pickBtn" id="dogBtn" onclick="selectDog()">DOG</button>
 		</div>
 
 		<div class="infobox">
